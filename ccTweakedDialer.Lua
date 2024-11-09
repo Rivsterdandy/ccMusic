@@ -67,6 +67,8 @@ function dial(address)
         --be able to find in the video description
         
     end 
+    sleep(60)
+    disconnectStargate()
 end
 
 --Now that we've got a function, this is how we'll run it
